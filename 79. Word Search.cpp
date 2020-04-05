@@ -5,7 +5,7 @@ class Solution {
 public:
     vector<vector<char>> a;
     vector<vector<bool>> use;
-    
+    //暴力搜索格式：
     const int wx[4]={0,0,-1,1};
     const int wy[4]={1,-1,0,0};
     
